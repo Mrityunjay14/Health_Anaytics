@@ -51,7 +51,7 @@ AS pct_male
 FROM data;
   ```
 - **Count of patients by Ethnicity and their respective Average Obsession Score**
-  ```sql
+```sql
  SELECT
      Ethnicity, 
      COUNT("Patient ID") as patient_count,
@@ -62,7 +62,7 @@ ORDER BY patient_count DESC;
   ```, etc.
 
 ## 📊 Power BI Dashboard Preview
-![Screenshot](D:\Desktop\Badlav\Health Analytics(Excel+SQL+PowerBI)\Health_Analytics.png)
+![Health_Analytics](Health_Analytics.png)
 
 ## 📂 Files Included
 -**health_analytics.sql** - SQL queries for generating insights from the dataset
