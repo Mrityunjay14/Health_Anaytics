@@ -54,22 +54,22 @@ FROM data;
   ```sql
  SELECT
      Ethnicity, 
-	 COUNT('Patient ID') as patient_count,
-	 ROUND(AVG("Y-BOCS Score (Obsessions)"),2) AS obs_score
+     COUNT("Patient ID") as patient_count,
+     ROUND(AVG("Y-BOCS Score (Obsessions)"),2) AS obs_score
 FROM patient_data
 GROUP BY Ethnicity
-ORDER BY patient_count;
+ORDER BY patient_count DESC;
   ```, etc.
 
 ## 📊 Power BI Dashboard Preview
 ![Screenshot](D:\Desktop\Badlav\Health Analytics(Excel+SQL+PowerBI)\Health_Analytics.png)
 
 ## 📂 Files Included
--'health_analytics.sql' - SQL queries for generating insights from the dataset
--'Health_Analytics.pbix' - Powerbi file containing interactive dashboard and visualization
--'Health_Analytics.xlsx' - Excel file containing insights and dashboards
--'ocd_patient_dataset.csv' - Excel file containing raw data of patients
--'README.md' - Project documentation
+-**health_analytics.sql** - SQL queries for generating insights from the dataset
+-**Health_Analytics.pbix** - Powerbi file containing interactive dashboard and visualization
+-**Health_Analytics.xlsx** - Excel file containing insights and dashboards
+-**ocd_patient_dataset.csv** - Excel file containing raw data of patients
+-**README.md** - Project documentation
 
 ## 🚀 How to Use This Repository
 1. **Clone the Repository**:
@@ -81,7 +81,6 @@ ORDER BY patient_count;
 4. **Explore Dashboards & Reports**
 
 ## 📌 Conclusion
-This project demonstrates **real-world data analytics skills** by integrating SQL, Power BI, and Excel to generate healthcare insights. It is a valuable addition to any **Data Analyst Portfolio**.
-
+This project showcases **real-world data analytics skills**, integrating **SQL, Power BI, and Excel** to extract valuable healthcare insights. It highlights expertise in **data transformation, visualization, and business intelligence**.
 ---
 🚀 **Connect with me on LinkedIn**: [Mrityunjay Gupta](https://www.linkedin.com/in/mrityunjay-gupta-663290263/)  
