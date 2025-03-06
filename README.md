@@ -66,11 +66,11 @@ ORDER BY patient_count DESC;
 ```
 
 ## 📂 Files Included
--**health_analytics.sql** - SQL queries for generating insights from the dataset
--**Health_Analytics.pbix** - Powerbi file containing interactive dashboard and visualization
--**Health_Analytics.xlsx** - Excel file containing insights and dashboards
--**ocd_patient_dataset.csv** - Excel file containing raw data of patients
--**README.md** - Project documentation
+- **health_analytics.sql** - SQL queries for generating insights from the dataset
+- **Health_Analytics.pbix** - Powerbi file containing interactive dashboard and visualization
+- **Health_Analytics.xlsx** - Excel file containing insights and dashboards
+- **ocd_patient_dataset.csv** - Excel file containing raw data of patients
+- **README.md** - Project documentation
 
 ## 🚀 How to Use This Repository
 1. **Clone the Repository**:
