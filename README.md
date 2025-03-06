@@ -26,7 +26,7 @@ This project is a **comprehensive data analysis** of healthcare data using **SQL
 
 ## 📌 Key SQL Queries Used
 - **Patient Count by Gender**
-  ```sql
+```sql
 WITH data AS (
     SELECT 
         Gender, 
