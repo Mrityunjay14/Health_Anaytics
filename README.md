@@ -1,6 +1,9 @@
 ## 📌 Project Overview
 This project is a **comprehensive data analysis** of healthcare data using **SQL, Power BI, and Excel**. The goal is to **extract meaningful insights** from patient records, diagnosis trends, and other key health metrics.
 
+## 📊 Power BI Dashboard Preview
+![Health_Analytics](Health_Analytics.png)
+
 ## 📊 Tools & Technologies Used
 - **PostgreSQL (PGSQL)** for data extraction and transformation
 - **Power BI** for interactive dashboards and visualization
@@ -61,9 +64,6 @@ GROUP BY Ethnicity
 ORDER BY patient_count DESC;
 , Etc.
 ```
-
-## 📊 Power BI Dashboard Preview
-![Health_Analytics](Health_Analytics.png)
 
 ## 📂 Files Included
 -**health_analytics.sql** - SQL queries for generating insights from the dataset
