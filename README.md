@@ -59,7 +59,8 @@ FROM data;
 FROM patient_data
 GROUP BY Ethnicity
 ORDER BY patient_count DESC;
-``` , Etc.
+, Etc.
+```
 
 ## 📊 Power BI Dashboard Preview
 ![Health_Analytics](Health_Analytics.png)
